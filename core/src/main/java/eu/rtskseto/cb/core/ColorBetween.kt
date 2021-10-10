@@ -1,4 +1,4 @@
-package eu.rtskseto.colorbetween
+package eu.rtskseto.cb.core
 
 import android.graphics.Color
 import androidx.annotation.ColorInt

@@ -1,4 +1,4 @@
-package eu.rtskseto.colorbetween
+package eu.rtskseto.cb.core
 
 /**
  * Developer: Aristoteles Pasalides
