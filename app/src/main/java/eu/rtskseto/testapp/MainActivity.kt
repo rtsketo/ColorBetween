@@ -1,4 +1,4 @@
-package eu.rtskseto.colorbetween
+package eu.rtskseto.testapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -26,6 +26,7 @@ import androidx.core.graphics.alpha
 import androidx.core.graphics.blue
 import androidx.core.graphics.green
 import androidx.core.graphics.red
+import eu.rtskseto.colorbetween.ColorBetween
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

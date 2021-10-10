@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColorBetween">
         <activity
-            android:name=".MainActivity"
+            android:name="eu.rtskseto.testapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
