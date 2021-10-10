@@ -36,10 +36,6 @@ android {
     }
 }
 
-task androidSourcesJar(type: Jar) {
-    archiveClassifier.set('sources')
-    from android.sourceSets.main.java.srcDirs }
-
  publishing {
      publications {
          release(MavenPublication) {
@@ -47,7 +43,6 @@ task androidSourcesJar(type: Jar) {
              artifactId = 'colorbetween'
              version = '0.1'
 
-             artifact androidSourcesJar
              artifact '$buildDir/outputs/aar/${artifactId}-release.aar'
          }
      }
