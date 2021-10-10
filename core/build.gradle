@@ -37,14 +37,14 @@ android {
             publications {
                 release(MavenPublication) {
                     from components.release
-                    groupId = 'eu.rtsketo'
+                    groupId = 'com.github.rtsketo'
                     artifactId = 'colorbetween'
                     version = '0.1'
                 }
 
                 debug(MavenPublication) {
                     from components.debug
-                    groupId = 'eu.rtsketo'
+                    groupId = 'com.github.rtsketo'
                     artifactId = 'colorbetween'
                     version = '0.1'
                 }
